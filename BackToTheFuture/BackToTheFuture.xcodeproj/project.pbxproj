@@ -13,6 +13,7 @@
 		59180C231F513FAF001FC129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59180C221F513FAF001FC129 /* Assets.xcassets */; };
 		59180C261F513FAF001FC129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59180C241F513FAF001FC129 /* LaunchScreen.storyboard */; };
 		59180C301F51412F001FC129 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59180C2F1F51412F001FC129 /* SecondViewController.swift */; };
+		59180C321F51458A001FC129 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59180C311F51458A001FC129 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		59180C251F513FAF001FC129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59180C271F513FAF001FC129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59180C2F1F51412F001FC129 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		59180C311F51458A001FC129 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				59180C2E1F513FD2001FC129 /* ViewControllers */,
+				59180C331F51458F001FC129 /* Models */,
 				59180C2D1F513FC9001FC129 /* Resources */,
 			);
 			path = BackToTheFuture;
@@ -81,6 +84,14 @@
 				59180C1F1F513FAF001FC129 /* Main.storyboard */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		59180C331F51458F001FC129 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				59180C311F51458A001FC129 /* Model.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +170,7 @@
 				59180C301F51412F001FC129 /* SecondViewController.swift in Sources */,
 				59180C1E1F513FAF001FC129 /* FirstViewController.swift in Sources */,
 				59180C1C1F513FAF001FC129 /* AppDelegate.swift in Sources */,
+				59180C321F51458A001FC129 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
