@@ -21,7 +21,8 @@ class FirstViewController: UIViewController {
     
     @IBOutlet weak var timeLabel: UILabel!
     
-
+    var timer = Timer()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -34,7 +35,14 @@ class FirstViewController: UIViewController {
         label3.text = Utilities().getLetterAtIndex(str: year, location: 2)
         label4.text = Utilities().getLetterAtIndex(str: year, location: 3)
 
+        self.timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(FirstViewController.Tick), userInfo: nil , repeats: true)
         
+    }
+    
+    func Tick(){
+        
+        //Set time label
+        timeLabel.text = Utilities().getCurrentTime()
         
     }
 

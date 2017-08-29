@@ -31,4 +31,27 @@ class Utilities {
         //Convert the character to a String
         return String(str[index])
     }
+    
+    func getCurrentTime() -> String {
+        
+        //Create an instance of the Date class
+        //Date represents a single point in time
+        
+        let date = Date()
+        
+        //Create an instance of the Date Formatter object 
+        //Date formatter creates visual representations of Date()
+        
+        let formatter = DateFormatter()
+        
+        //We only want the time so it's .none for style
+        formatter.dateStyle = .none
+        
+        formatter.timeStyle = .medium
+        
+        let timeString = formatter.string(from: date)
+        
+        return timeString
+        
+    }
 }
