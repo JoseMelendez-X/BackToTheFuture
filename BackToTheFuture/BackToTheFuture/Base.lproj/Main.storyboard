@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--Go Doc!-->
         <scene sceneID="ToO-QE-kzo">
             <objects>
                 <viewController id="oPe-fk-CHO" customClass="SecondViewController" customModule="BackToTheFuture" customModuleProvider="target" sceneMemberID="viewController">
@@ -93,7 +93,7 @@
                             <constraint firstItem="MYm-2I-0Mj" firstAttribute="top" secondItem="bAB-DK-hl0" secondAttribute="top" id="iGy-t3-Svk"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="NK5-x1-VLn"/>
+                    <tabBarItem key="tabBarItem" title="Go Doc!" id="NK5-x1-VLn"/>
                     <connections>
                         <outlet property="lab1" destination="bAB-DK-hl0" id="CE5-QA-rke"/>
                         <outlet property="lab2" destination="bnr-8v-Ig0" id="RFl-TR-lE4"/>
