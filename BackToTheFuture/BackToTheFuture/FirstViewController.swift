@@ -50,6 +50,16 @@ class FirstViewController: UIViewController {
         //Set time label
         timeLabel.text = Utilities().getCurrentTime()
         
+        //Animation for background color
+       UIView.animate(withDuration: 1.0, delay: 0, options: .curveEaseOut, animations: { 
+        self.view.alpha = 0.5
+        
+       }) { (true) in
+        
+        self.view.alpha = 1
+        
+        }
+        
     }
 
 }
