@@ -21,5 +21,16 @@ class SecondViewController: UIViewController {
     }
 
     @IBAction func ButtonClicked(_ sender: Any) {
+        let utils = Utilities()
+        
+        let year = utils.getRandomYear()
+        
+        labe1.text = utils.getLetterAtIndex(str: year, location: 0)
+        
+        lab2.text = utils.getLetterAtIndex(str: year, location: 1)
+        
+        lab3.text = utils.getLetterAtIndex(str: year, location: 2)
+        
+        lab4.text = utils.getLetterAtIndex(str: year, location: 3)
     }
 }

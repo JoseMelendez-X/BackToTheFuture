@@ -54,4 +54,38 @@ class Utilities {
         return timeString
         
     }
+    
+    func getRandomYear() -> String {
+        
+        //Random numbers from 0 - 8999
+        return String(arc4random_uniform(8999) + 1000)
+    }
+    
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
