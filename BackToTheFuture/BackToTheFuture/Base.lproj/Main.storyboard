@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAB-DK-hl0">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAB-DK-hl0" userLabel="Lab1">
                                 <rect key="frame" x="85.5" y="311.5" width="44" height="44"/>
                                 <color key="backgroundColor" red="0.13206355010000001" green="0.57831839129999996" blue="0.6401491117" alpha="0.8692476455" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -95,10 +95,10 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="NK5-x1-VLn"/>
                     <connections>
+                        <outlet property="lab1" destination="bAB-DK-hl0" id="CE5-QA-rke"/>
                         <outlet property="lab2" destination="bnr-8v-Ig0" id="RFl-TR-lE4"/>
                         <outlet property="lab3" destination="avH-eR-5Lk" id="QAW-h0-T9f"/>
                         <outlet property="lab4" destination="MYm-2I-0Mj" id="EuV-W5-aio"/>
-                        <outlet property="labe1" destination="bAB-DK-hl0" id="AOa-0K-Xxb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m8A-eg-vlm" userLabel="First Responder" sceneMemberID="firstResponder"/>
